@@ -5,3 +5,9 @@ class Git {
     } 
 }
 
+class Commit{
+    constructor(id, message){
+        this.id = id;
+        this.message = message;
+    }
+}
